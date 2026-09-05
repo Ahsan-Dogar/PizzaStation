@@ -1,16 +1,88 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍕 PizzaStation | Online Pizza Ordering
 
-Currently, two official plugins are available:
+### A modern pizza ordering web experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A fully-featured pizza ordering site built with **React + Vite** — browse the menu, build a cart, order via **WhatsApp**, and manage the store with a built-in **admin panel**.
 
-## React Compiler
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)]()
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)]()
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)]()
+[![lucide](https://img.shields.io/badge/icons-lucide-8E44AD?logo=lucide&logoColor=white)]()
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🍕 **Beautiful landing & menu** — hero section, category navigation, featured items
+- 🛒 **Shopping cart** — slide-out cart drawer with quantity controls & live totals
+- 📲 **WhatsApp ordering** — send your cart straight to the store via WhatsApp
+- ⚙️ **Admin panel** — manage menu items, inventory & orders from the dashboard
+- 🏷️ **Common UI kit** — reusable Button, Badge, Logo & icon components
+- 🌶️ **Vibrant design** — rich, appetizing visuals built with Tailwind CSS
+- 📱 **Fully responsive** — optimized for every screen size
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| ---------- | ------- |
+| **React 18** | Component-based UI |
+| **Vite** | Fast build tooling |
+| **Tailwind CSS** | Utility-first styling |
+| **Lucide React** | Modern, crisp icons |
+
+---
+
+## 🚀 Quick Start
+
+**Prerequisites:** Node.js 18+
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Ahsan-Dogar/PizzaStation.git
+cd PizzaStation
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the dev server
+npm run dev
+```
+
+Open the local URL printed in the terminal (default **http://localhost:5173**).
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── admin/    # AdminPanel
+│   ├── cart/     # CartDrawer
+│   ├── common/   # Button, Badge, Logo, UI, WhatsAppIcon
+│   └── layout/   # Navbar, HeroSection, Footer
+├── hooks/        # useCart & other hooks
+└── assets/       # Images
+```
+
+---
+
+## 🤝 Contributing
+
+Suggestions welcome — open an [issue](https://github.com/Ahsan-Dogar/PizzaStation/issues) or submit a PR.
+
+---
+
+<div align="center">
+
+⭐ **Loved it? Please star the repo!**
+
+Made with ❤️ by [Ahsan Dogar](https://github.com/Ahsan-Dogar)
+
+</div>
