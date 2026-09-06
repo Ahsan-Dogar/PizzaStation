@@ -6,6 +6,8 @@
 
 A fully-featured pizza ordering site built with **React + Vite** — browse the menu, build a cart, order via **WhatsApp**, and manage the store with a built-in **admin panel**.
 
+[![View Live Demo](https://img.shields.io/badge/🚀-View_Live_Demo-00C853?style=flat-square)](https://ahsan-dogar.github.io/PizzaStation/)
+
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)]()
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)]()
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)]()
